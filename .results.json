@@ -2,18 +2,18 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 2,
+    "passes": 5,
     "pending": 0,
-    "failures": 3,
-    "start": "2025-03-18T16:11:21.729Z",
-    "end": "2025-03-18T16:11:22.385Z",
-    "duration": 656
+    "failures": 0,
+    "start": "2025-03-20T14:57:05.509Z",
+    "end": "2025-03-20T14:57:06.140Z",
+    "duration": 631
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -27,37 +27,35 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'not bob'",
-        "showDiff": true,
-        "expected": "not bob",
-        "stack": "AssertionError: expected undefined to equal 'not bob'\n    at Context.<anonymous> (test/indexTest.js:25:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'maybe bob'",
-        "showDiff": true,
-        "expected": "maybe bob",
-        "stack": "AssertionError: expected undefined to equal 'maybe bob'\n    at Context.<anonymous> (test/indexTest.js:33:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
@@ -68,40 +66,21 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'not bob'",
-        "showDiff": true,
-        "expected": "not bob",
-        "stack": "AssertionError: expected undefined to equal 'not bob'\n    at Context.<anonymous> (test/indexTest.js:25:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'maybe bob'",
-        "showDiff": true,
-        "expected": "maybe bob",
-        "stack": "AssertionError: expected undefined to equal 'maybe bob'\n    at Context.<anonymous> (test/indexTest.js:33:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
-  "passes": [
-    {
-      "title": "returns the customerName",
-      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     }
